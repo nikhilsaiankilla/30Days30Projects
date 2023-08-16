@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image slider | Nikhil sai</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="controls">
+          <span class="control"></span>
+          <span class="control"></span>
+          <span class="control active"></span>
+          <span class="control"></span>
+          <span class="control"></span>
+        </div>
+        <div class="visible-div">
+          <div class="slider-row">
+            <div class="slide-col">
+              <img src="./images/1.jpg" alt="" class="slide-img" />
+            </div>
+            <div class="slide-col">
+              <img src="./images/2.jpg" alt="" class="slide-img" />
+            </div>
+            <div class="slide-col">
+              <img src="./images/3.jpg" alt="" class="slide-img" />
+            </div>
+            <div class="slide-col">
+              <img src="./images/4.jpg" alt="" class="slide-img" />
+            </div>
+            <div class="slide-col">
+              <img src="./images/5.jpg" alt="" class="slide-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/9a0c28a3b4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      
+        let controls =  document.querySelectorAll(".control") 
+
+        let sliderRow = document.querySelector(".slider-row");
+
+        controls[0].addEventListener("click",()=>{
+            sliderRow.style.transform = "translate(880px)"
+            controls[0].classList.add("active")
+            controls[1].classList.remove("active")
+            controls[2].classList.remove("active")
+            controls[3].classList.remove("active")
+            controls[4].classList.remove("active")
+        })
+        controls[1].addEventListener("click",()=>{
+            sliderRow.style.transform = "translate(440px)"
+            controls[0].classList.remove("active")
+            controls[1].classList.add("active")
+            controls[2].classList.remove("active")
+            controls[3].classList.remove("active")
+            controls[4].classList.remove("active")
+        })
+        controls[2].addEventListener("click",()=>{
+            sliderRow.style.transform = "translate(0px)"
+            controls[0].classList.remove("active")
+            controls[1].classList.remove("active")
+            controls[2].classList.add("active")
+            controls[3].classList.remove("active")
+            controls[4].classList.remove("active")
+        })
+        controls[3].addEventListener("click",()=>{
+            sliderRow.style.transform = "translate(-440px)"
+            controls[0].classList.remove("active")
+            controls[1].classList.remove("active")
+            controls[2].classList.remove("active")
+            controls[3].classList.add("active")
+            controls[4].classList.remove("active")
+        })
+        controls[4].addEventListener("click",()=>{
+            sliderRow.style.transform = "translate(-880px)"
+            controls[0].classList.remove("active")
+            controls[1].classList.remove("active")
+            controls[2].classList.remove("active")
+            controls[3].classList.remove("active")
+            controls[4].classList.add("active")
+        })
+    </script>
+  </body>
+</html>
