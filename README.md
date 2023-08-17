@@ -21,7 +21,7 @@ The entered text is dynamically displayed below.
 Simple and intuitive user interface.
 
 
-## Incrementer and Decrementer
+## Day-3 Incrementer and Decrementer
 on Day 3 for the #30days30Projects challenge! In this project, I've developed a simple web application using HTML, CSS, and JavaScript that allows users to increment and decrement a value with the click of buttons.
 
 ### Features:
@@ -30,7 +30,7 @@ Increase the value using the "Increment" button.
 Decrease the value using the "Decrement" button.
 Real-time updating of the displayed value.
 
-## Simple Image Slider
+## Day-4 Simple Image Slider
 on Day 4 for the #30days30Projects challenge! Today, I've built a straightforward image slider using HTML, CSS, and JavaScript. This project allows you to cycle through a set of images with navigation buttons.
 
 ### Features:
@@ -38,7 +38,7 @@ on Day 4 for the #30days30Projects challenge! Today, I've built a straightforwar
 Display a series of images in a slideshow format.
 Navigate through images using "Previous" and "Next" buttons.
 
-## ToDo App with Local Storage
+## Day-5 ToDo App with Local Storage
 on Day 5 for the #30days30Projects challenge! Today, I've crafted a ToDo app using HTML, CSS, and JavaScript, and integrated local storage to save tasks even after you close the browser.
 
 ### Features:
