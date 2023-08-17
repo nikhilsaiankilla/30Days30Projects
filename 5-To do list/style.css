@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg , #153667,#4e085f);
+    padding: 10px;
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    background: #fff;
+    padding: 40px 30px 70px;
+    border-radius: 20px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#edeef0 ;
+    padding-left:20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.input-box{
+    width: 70%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+
+.input-box::placeholder{
+    color: gray;
+}
+
+.add-btn{
+    padding: 10px 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #ff5945;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.heading-div{
+    margin-bottom: 30px;
+}
+
+.heading{
+    color: #002765;
+}
+
+.task-container{
+    padding:10px 50px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.task-container li{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    padding-left: 10px
+}
+
+
+.task-container li::before{
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    background: url(./Assests/unchecked.png) center center/cover;
+    left: -40px;
+    top: -1px;
+    border-radius: 50%;
+}
+
+.task-container li.checked{
+    text-decoration: line-through;
+}
+
+.task-container li.checked::before{
+    background: url(./Assests/checked.png) center center/cover;
+}
+
+.task-container li span{
+    position: absolute;
+    content: "";
+    top: 15%;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #333;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.linkedin-div{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.linkedin-div i{
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #0A66C2;
+    color: white;
+    border-radius: 6px;
+}
+
+.linkedin-div a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:440px) {
+    .task-container{
+        padding: 10px 7px 10px 50px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .input-box,
+    .add-btn,
+    .task-container li{
+        font-size: 16px;
+    }
+
+    .task-container li{
+        overflow-wrap: break-word;
+        padding-right: 25px;
+    }
+}
