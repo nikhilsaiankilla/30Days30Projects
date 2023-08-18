@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: #1b173f;
+}
+
+.password-generator{
+  margin: 12% 10% 20px;
+}
+
+.password-generator h1{
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.random{
+  position: relative;
+  color: #289128;
+  border-bottom: 5px solid #289128;
+  border-radius: 5px;
+}
+
+.input-div{
+  width: 95%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.input-div input{
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translate(0%,-50%);
+  width: 90%;
+  padding: 10px;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+
+.input-div i{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(0%,-50%);
+  color: #289128;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.generate-btn{
+  padding: 20px 30px;
+  background-color: #289128;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.generate-btn i{
+  margin-right: 20px;
+}
+
+.copied{
+  position: absolute;
+  right: 0px;
+  top:-30px;
+  transform: translate(0%,-50%);
+  color: white;
+  background: #289128;
+  padding: 5px 8px;
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 13px;
+  margin: 10px 0;
+  display: none;
+}
