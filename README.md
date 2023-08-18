@@ -1,5 +1,4 @@
 # 30Days30Projects
-## Iam doing 30 Days 30 Projects challenge 
 
 ## DAY-1 Random Background Color Generator
 A simple project for Day 1 of #30days30Projects challenge. This project creates a random background color generator using HTML, CSS, and JavaScript. It generates random hex codes to create visually interesting and constantly changing background colors.
