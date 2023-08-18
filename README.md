@@ -47,3 +47,14 @@ Add new tasks to your ToDo list.
 Mark tasks as completed or remove them.
 Utilize local storage for persistent task storage.
 User-friendly and responsive design.
+
+## Day-6 Random Password Generator
+
+The Random Password Generator is a simple web application built using HTML, CSS, and JavaScript that allows users to generate strong and secure random passwords. With the increasing importance of online security, having a strong password is crucial to protect sensitive information. This tool addresses the challenge of creating complex passwords by automating the process.
+
+### Features
+Customizable Parameters: Users can customize the length of the password and choose whether to include uppercase letters, lowercase letters, numbers, and special characters in the generated password.
+
+Secure and Random: The generator uses a cryptographically secure random number generator to ensure that the generated passwords are truly random and difficult to predict.
+
+Copy to Clipboard: Generated passwords can be easily copied to the clipboard with a single click, making it convenient to use them for various accounts and services.
