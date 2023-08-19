@@ -56,7 +56,7 @@ Customizable Parameters: Users can customize the length of the password and choo
 
 Secure and Random: The generator uses a cryptographically secure random number generator to ensure that the generated passwords are truly random and difficult to predict.
 
-## ImageSearchApp
+## Day-7 ImageSearchApp
 
 The ImageSearchApp is a powerful and user-friendly image search application that leverages the Unsplash API to provide users with access to a vast collection of high-quality images. Whether you're a developer looking for stunning visuals for your projects, a designer in need of inspiration, or simply someone who loves browsing through beautiful imagery, this app has you covered.
 
