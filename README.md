@@ -56,4 +56,19 @@ Customizable Parameters: Users can customize the length of the password and choo
 
 Secure and Random: The generator uses a cryptographically secure random number generator to ensure that the generated passwords are truly random and difficult to predict.
 
-Copy to Clipboard: Generated passwords can be easily copied to the clipboard with a single click, making it convenient to use them for various accounts and services.
+## ImageSearchApp
+
+The ImageSearchApp is a powerful and user-friendly image search application that leverages the Unsplash API to provide users with access to a vast collection of high-quality images. Whether you're a developer looking for stunning visuals for your projects, a designer in need of inspiration, or simply someone who loves browsing through beautiful imagery, this app has you covered.
+
+### Features
+Search Any Topic: With the ImageSearchApp, you can search for images related to any topic under the sun. Whether it's nature, technology, travel, or anything else, our app will fetch the perfect images for you.
+
+High-Quality Images: We understand the importance of using high-quality images in your projects. That's why our app exclusively fetches images from the Unsplash platform, known for its exceptional quality and diverse selection.
+
+Simple and Intuitive: Our user-friendly interface ensures that searching for images is a breeze. The app's clean design and intuitive search bar make it easy for users of all levels to find the images they need.
+
+Infinite Scroll: Keep scrolling without limits! The app implements an infinite scroll feature, allowing you to explore countless images without interruption.
+
+Image Details: Want more information about a specific image? Click on any image to view its details, including the photographer's name, profile, likes, and more.
+
+Easy Integration: If you're a developer, integrating the ImageSearchApp into your projects is straightforward. Our code is well-documented and easily customizable to fit your needs.
