@@ -72,3 +72,21 @@ Infinite Scroll: Keep scrolling without limits! The app implements an infinite s
 Image Details: Want more information about a specific image? Click on any image to view its details, including the photographer's name, profile, likes, and more.
 
 Easy Integration: If you're a developer, integrating the ImageSearchApp into your projects is straightforward. Our code is well-documented and easily customizable to fit your needs.
+
+## Day-8 Weather App
+
+This repository contains a weather application that provides real-time weather information based on user input. The app uses APIs to fetch weather data and displays it in an intuitive and user-friendly interface.
+
+### Features
+Get current weather conditions for a specified location.
+Display temperature, humidity, wind speed, and weather description.
+Dynamic background that changes based on weather conditions.
+
+## Day-9 Digital Clock
+
+This repository contains a simple digital clock application built using HTML, CSS, and JavaScript. The digital clock displays the current time and updates in real-time.
+
+### Features
+Real-time display of the current time.
+Automatic updates every second.
+User-friendly interface with a clear digital display.
