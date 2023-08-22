@@ -90,3 +90,12 @@ This repository contains a simple digital clock application built using HTML, CS
 Real-time display of the current time.
 Automatic updates every second.
 User-friendly interface with a clear digital display.
+
+## Image Carousel
+
+The Image Carousel is a lightweight and customizable JavaScript component that allows you to create interactive and visually appealing image carousels on your website.
+### Features
+Display a series of images in a responsive and dynamic carousel.
+Smooth transition animations between images for a polished user experience.
+Customizable options for controlling carousel behavior and appearance.
+Touch and swipe support for mobile devices.
