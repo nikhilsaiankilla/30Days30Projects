@@ -11,6 +11,7 @@
     min-height: 100vh;
     background:linear-gradient(135deg ,#cf9aff,#95c0ff) ;
     padding: 4% 10%;
+    text-align: center;
 }
 
 .container h2{
@@ -74,4 +75,14 @@
     right: 10px;
     bottom: 10px;
     cursor: pointer;
+}
+
+.linkedin{
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px ;
+    background-color: #9418fd;
+    margin: 20px 0;
+    text-decoration: none;
 }

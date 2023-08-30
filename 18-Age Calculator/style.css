@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(135deg , #4343c2,#8a8ae9);
+}
+
+.age-calculator-app{
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px 7%;
+}
+
+.heading{
+    font-size: 60px;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.heading-1{
+    margin-top: 5%;
+}
+.age-heading{
+    color: #f0f047;
+    margin-bottom: 30px;
+}
+
+.input-box{
+    width: 95%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    background-color: #ffffff70;
+    border-radius: 10px;
+}
+
+#date-box{
+    width: 80%;
+    padding: 10px 30px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.submit-btn{
+    padding: 10px 20px;
+    background-color: #f0f047;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.result{
+    margin: 40px 0;
+    display: none;
+    margin-left: 20px;
+}
+
+.result p{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.year,
+.month,
+.day{
+    color: #f0f047;
+    margin: 0 10px ;
+}
