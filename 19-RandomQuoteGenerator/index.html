@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator || Nikhil Sai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quote-app">
+            <h1 class="heading">Quote of the day</h1>
+            <div class="quote-container">
+                <div class="quote">
+                    "loading....!"
+                </div>
+                <span class="author">
+                    author
+                </span>
+            </div>
+            <div class="buttons-container">
+                <button class="btn" onclick="generate()">New Quote</button>
+                <button class="btn" onclick="shareTweet()"><i class="fa-brands fa-twitter"></i>Tweet</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/9a0c28a3b4.js" crossorigin="anonymous"></script>
+    <script>
+        const quote = document.querySelector(".quote")
+        const author = document.querySelector(".author")
+
+        const api_url = "https://api.quotable.io/random"
+
+        async function generateQuote(url){
+            let response = await fetch(url)
+            let data = await response.json()
+            
+            quote.innerHTML = " \" " + data.content + " \" "
+            author.innerHTML = data.author
+        }
+
+        function generate(){
+            generateQuote(api_url)
+        }
+
+        generateQuote(api_url)
+
+        function shareTweet(){
+            window.open(`https://twitter.com/intent/tweet?text=${quote.innerHTML}`,"Tweet window","height=400px,width=400px")
+        }
+    </script>
+</body>
+</html>
