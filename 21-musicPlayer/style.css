@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.music-player{
+    width: 95%;
+    max-width: 500px ;
+    min-height: 600px;
+    background: #81ea86;
+    border: 3px solid #008900;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.music-img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 30px 0;
+}
+
+.music-img img{
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #008900;
+    transform: rotate(0deg);
+}
+
+.song-name{
+    font-size: 22px;
+    font-weight: 700;
+    color: green;
+    margin: 30px 0 10px 0;
+}
+
+.song-composer-name{
+    font-size: 18px;
+    font-weight: 600;
+    color: #008900;
+    margin-bottom :20px ;
+}
+
+.slider{
+    width: 100%;
+}
+.song-length{
+    width: 80%;
+    appearance: none;
+    background: #008900;
+    height: 9px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    opacity: 0.7;
+    margin: 10px 0 20px 0;
+}
+
+.song-length::-webkit-slider-thumb{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #008900;
+    border: 5px solid white;
+    cursor: pointer;
+}
+
+
+.song-length:hover{
+    opacity: 1;
+}
+
+.song-length::-webkit-slider-thumb:hover{
+    opacity: 1;
+}
+
+.song-controls{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.song-controls i{
+    width: 60px;
+    padding: 20px 20px;
+    background-color: #008900;
+    border-radius: 50%;
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+audio{
+    display: none;
+}
