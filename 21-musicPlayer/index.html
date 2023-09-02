@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player || Nikhil Sai</title>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <div class="music-img">
+                <img src="./album.jpg" alt="">
+            </div>
+            <div class="song-details">
+                <h2 class="song-name">Ramamam Ragavam</h2>
+                <p class="song-composer-name">MM Keravani</p>
+            </div>
+            <audio controls id="song">
+                <source type="audio/mpeg" src="./Raamam Raaghavam - RRR 128 Kbps.mp3">
+            </audio>
+            <div class="slider">
+                <input type="range" class="song-length" value="0">
+            </div>
+            <div class="song-controls">
+                <i class="fa-solid fa-backward" id="backward-btn"></i>
+                <i class="fa-solid fa-play" onclick="playPause()" id="play-pause-btn"></i>
+                <i class="fa-solid fa-forward"  id="forward-btn"></i>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/9a0c28a3b4.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
