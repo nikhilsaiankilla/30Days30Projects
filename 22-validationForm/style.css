@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #100c48;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.form{
+    width: 95%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    min-height: 500px;
+    border-radius: 20px;
+    position: relative;
+    padding: 50px;
+}
+
+#paper-plane-logo{
+    position: absolute;
+    top: -30px;
+    left:50%;
+    transform: translate(-50%,-10%);
+    background: #fff;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.input-group{
+    margin: 20px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-group label{
+    font-size: 18px;
+}
+
+.input-group input{
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 0 20px;
+    width: 70%;
+    border: none;
+    outline: none;
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+
+textarea{
+    margin: 0 20px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;  
+}
+
+.input-group span{
+    position: absolute;
+    right: 0;
+    top: 0px;
+    color: red;
+    font-weight: 300;   
+    font-size: 15px;
+}
+
+.error{
+    color: red;
+    margin-top: 30px ;
+    display: none;
+}
+
+.input-group i {
+    color: green;
+}
+.submit-btn{
+    display: block;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    color: white;
+    background: #100c48;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.message-error{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

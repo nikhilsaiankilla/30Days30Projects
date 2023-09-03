@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validation form | Nikhil Sai</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <i class="fa-solid fa-paper-plane" id="paper-plane-logo"></i>
+            <div class="input-group">
+                <label for="">Full Name</label>
+                <input type="text" placeholder="Enter your full  name" id="validate-name" onkeyup="validateName()">
+                <span class="name-error"></span>
+            </div>
+            <div class="input-group">
+                <label for="">Phone No</label>
+                <input type="tel" placeholder="83740 09372" id="validate-phone" onkeyup="validatePhone()">
+                <span class="phone-error"></span>
+            </div>
+            <div class="input-group">
+                <label for="">Email Id</label>
+                <input type="email" placeholder="example@gmail.com" id="validate-email" onkeyup="validateEmail()">
+                <span class="email-error"></span>
+            </div>
+            <div class="input-group">
+                <label for="">Your Message</label>
+                <textarea id="validate-msg" onkeyup="validateMsg()" rows="5"></textarea>
+                <span class="message-error"></span>
+            </div>
+            <button class="submit-btn" onclick="return validateForm()">Submit</button>
+            <span class="error"></span>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/9a0c28a3b4.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
