@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Comming soon || Nikhil Sai</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./images/logo.png" class="logo" alt="" />
+
+      <div class="content">
+        <p>Website Under Progress!!</p>
+        <h2>We are <span>launching</span> soon</h2>
+
+        <div class="launch-time">
+          <div>
+            <p class="date">00</p>
+            <span>Days</span>
+          </div>
+          <div>
+            <p class="hours">00</p>
+            <span>hours</span>
+          </div>
+          <div>
+            <p class="minutes">00</p>
+            <span>minutes</span>
+          </div>
+          <div>
+            <p class="seconds">00</p>
+            <span>seconds</span>
+          </div>
+        </div>
+        <button class="btn">
+          Learn more <img src="./images/triangle.png" alt="" />
+        </button>
+      </div>
+      <img src="./images/rocket.png" class="rocket-img" alt="" />
+    </div>
+    <script>
+      var coundDownDate = new Date("jun 24, 2024 00:00:00");
+
+      var x = setInterval(() => {
+        var now = new Date().getTime();
+        let distance = coundDownDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.querySelector(".date").innerHTML = days
+        document.querySelector(".hours").innerHTML = hours
+        document.querySelector(".minutes").innerHTML = minutes
+        document.querySelector(".seconds").innerHTML = seconds
+
+
+        if(x < 0){
+            document.querySelector(".date").innerHTML = "00"
+        document.querySelector(".hours").innerHTML = "00"
+        document.querySelector(".minutes").innerHTML = "00"
+        document.querySelector(".seconds").innerHTML = "00"
+
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>
