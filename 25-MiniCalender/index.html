@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mini Calender || Nikhil Sai</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calender">
+            <div class="left">
+                <p class="date">00</p>
+                <p class="day">MOnday</p>
+            </div>
+            <div class="right">
+                <p class="month">June</p>
+                <p class="year">2023</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        let date = document.querySelector(".date")
+        let day = document.querySelector(".day")
+        let year = document.querySelector(".year")
+        let month = document.querySelector(".month")
+
+        let today = new Date()
+
+        console.log(today)
+
+        let months = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+        let weekDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+        date.innerHTML = today.getDate()
+        day.innerHTML = weekDays[today.getDay()]
+        month.innerHTML = months[today.getMonth()]
+        year.innerHTML = today.getFullYear()
+    </script>
+</body>
+</html>
