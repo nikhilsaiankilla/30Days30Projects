@@ -1,101 +1,48 @@
-# 30Days30Projects
+## Day-1 Random Background Color Generator : 
+  live link : https://starlit-marigold-7167ab.netlify.app/
 
-## DAY-1 Random Background Color Generator
-A simple project for Day 1 of #30days30Projects challenge. This project creates a random background color generator using HTML, CSS, and JavaScript. It generates random hex codes to create visually interesting and constantly changing background colors.
+## Day-2 Message Passing :
+  live link : https://650c0c2002756b06ebed0a05--resonant-donut-29ef43.netlify.app/
 
-### Features:
+## Day-3 Incrementer and Decrementer :
+  live link : https://650c0c74970324088556df33--glistening-lamington-983f16.netlify.app/
 
-Generates random background colors with each click.
-Easy-to-understand code using HTML, CSS, and JavaScript.
-Enhances your coding skills in a fun and creative way.
-Feel free to clone or download the project and try it out for yourself!
+## Day-4 Image Slider :
+  live link : https://melodic-halva-5d7a0c.netlify.app/
 
-## DAY-2 Message Passing App
-on Day 2 for #30days30Projects challenge! In this project, I've created a basic app using HTML, CSS, and JavaScript that takes user input from an input field and displays it below in real-time.
+## Day-5 To Do List : 
+  live link : https://todoappnikhil.netlify.app/
 
-### Features:
+## Day-6 : Password Generator :
+  live link : https://650c0e45c2e4f707998851d0--endearing-meringue-0ded1b.netlify.app/
 
-Easily enter text in the input field.
-The entered text is dynamically displayed below.
-Simple and intuitive user interface.
+## Day-7 : Image Search app :
+  live link : https://imagesearchappnikhil.netlify.app/
 
+## Day-8 : Weather App :
+  live link : https://app.netlify.com/sites/weatherappnikhil/overview
 
-## Day-3 Incrementer and Decrementer
-on Day 3 for the #30days30Projects challenge! In this project, I've developed a simple web application using HTML, CSS, and JavaScript that allows users to increment and decrement a value with the click of buttons.
+## Day-9 : Digital Clock : 
+  live link : https://650c0f0ad6512d07e2310fad--tangerine-bombolone-a65161.netlify.app/
 
-### Features:
+## Day-10 : Image Carosoul : 
+  live link : https://650c0fab7c6aa70a21d222e4--reliable-blancmange-e6bfea.netlify.app/
 
-Increase the value using the "Increment" button.
-Decrease the value using the "Decrement" button.
-Real-time updating of the displayed value.
+## Day-11 : Math Game :
+  live link : https://mathgamenikhilsai.netlify.app/
 
-## Day-4 Simple Image Slider
-on Day 4 for the #30days30Projects challenge! Today, I've built a straightforward image slider using HTML, CSS, and JavaScript. This project allows you to cycle through a set of images with navigation buttons.
+## Day-12 : Custom Mouse :
+  live link : https://650c10116fac650a25383be4--spiffy-pudding-0d9256.netlify.app/
 
-### Features:
+## Day-13 : Filter :
+  live link : https://650c105c0a9f9d076e3a2a75--grand-salamander-35e439.netlify.app/
 
-Display a series of images in a slideshow format.
-Navigate through images using "Previous" and "Next" buttons.
+## Day-14 : QR Generator :
+  live link : https://650c109badaaa10a73497269--tourmaline-palmier-92e034.netlify.app/
 
-## Day-5 ToDo App with Local Storage
-on Day 5 for the #30days30Projects challenge! Today, I've crafted a ToDo app using HTML, CSS, and JavaScript, and integrated local storage to save tasks even after you close the browser.
+## Day-15 : Calculator : 
+  live link : https://650c10e10a9f9d07bb3a2b01--amazing-pika-d1f428.netlify.app/
 
-### Features:
-
-Add new tasks to your ToDo list.
-Mark tasks as completed or remove them.
-Utilize local storage for persistent task storage.
-User-friendly and responsive design.
-
-## Day-6 Random Password Generator
-
-The Random Password Generator is a simple web application built using HTML, CSS, and JavaScript that allows users to generate strong and secure random passwords. With the increasing importance of online security, having a strong password is crucial to protect sensitive information. This tool addresses the challenge of creating complex passwords by automating the process.
-
-### Features
-Customizable Parameters: Users can customize the length of the password and choose whether to include uppercase letters, lowercase letters, numbers, and special characters in the generated password.
-
-Secure and Random: The generator uses a cryptographically secure random number generator to ensure that the generated passwords are truly random and difficult to predict.
-
-## Day-7 ImageSearchApp
-
-The ImageSearchApp is a powerful and user-friendly image search application that leverages the Unsplash API to provide users with access to a vast collection of high-quality images. Whether you're a developer looking for stunning visuals for your projects, a designer in need of inspiration, or simply someone who loves browsing through beautiful imagery, this app has you covered.
-
-### Features
-Search Any Topic: With the ImageSearchApp, you can search for images related to any topic under the sun. Whether it's nature, technology, travel, or anything else, our app will fetch the perfect images for you.
-
-High-Quality Images: We understand the importance of using high-quality images in your projects. That's why our app exclusively fetches images from the Unsplash platform, known for its exceptional quality and diverse selection.
-
-Simple and Intuitive: Our user-friendly interface ensures that searching for images is a breeze. The app's clean design and intuitive search bar make it easy for users of all levels to find the images they need.
-
-Infinite Scroll: Keep scrolling without limits! The app implements an infinite scroll feature, allowing you to explore countless images without interruption.
-
-Image Details: Want more information about a specific image? Click on any image to view its details, including the photographer's name, profile, likes, and more.
-
-Easy Integration: If you're a developer, integrating the ImageSearchApp into your projects is straightforward. Our code is well-documented and easily customizable to fit your needs.
-
-## Day-8 Weather App
-
-This repository contains a weather application that provides real-time weather information based on user input. The app uses APIs to fetch weather data and displays it in an intuitive and user-friendly interface.
-
-### Features
-Get current weather conditions for a specified location.
-Display temperature, humidity, wind speed, and weather description.
-Dynamic background that changes based on weather conditions.
-
-## Day-9 Digital Clock
-
-This repository contains a simple digital clock application built using HTML, CSS, and JavaScript. The digital clock displays the current time and updates in real-time.
-
-### Features
-Real-time display of the current time.
-Automatic updates every second.
-User-friendly interface with a clear digital display.
-
-## Image Carousel
-
-The Image Carousel is a lightweight and customizable JavaScript component that allows you to create interactive and visually appealing image carousels on your website.
-### Features
-Display a series of images in a responsive and dynamic carousel.
-Smooth transition animations between images for a polished user experience.
-Customizable options for controlling carousel behavior and appearance.
-Touch and swipe support for mobile devices.
+## DAy-16 : Quiz App :
+  live link: https://app.netlify.com/sites/quizappnikhil/overview
+ 
