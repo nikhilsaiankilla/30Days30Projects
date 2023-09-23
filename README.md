@@ -43,6 +43,49 @@
 ## Day-15 : Calculator : 
   live link : https://650c10e10a9f9d07bb3a2b01--amazing-pika-d1f428.netlify.app/
 
-## DAy-16 : Quiz App :
+## Day-16 : Quiz App :
   live link: https://app.netlify.com/sites/quizappnikhil/overview
- 
+
+## Day-17 : Notes App :
+  live link : https://notesappnikhil.netlify.app/
+
+## Day-18 : Age Calculator : 
+  live link : https://650ee8a2bef72e33313eec81--comfy-starburst-e40936.netlify.app/
+
+## Day-19 : Random Quote Generator :
+  live link : https://650ee95851dc6930abf8b3b0--lovely-jalebi-c9612c.netlify.app/
+
+## Day-20 : Toast Notification :
+  live link : https://650ee9b2fc0bfc30d1b8ada2--sparkly-snickerdoodle-ad72c5.netlify.app/
+
+## Day-21 : Music Player :
+  live link : https://650ee9eaa171f1315a5de8b1--thriving-sherbet-b976be.netlify.app/
+
+## Day-22 : Validation Form : 
+  live link : https://650eea39e7943d3326e2d1f3--visionary-beijinho-506198.netlify.app/
+
+## Day-23 : Comming Soon Page :
+  live link : https://650eea80fc0bfc31b5b8acbf--endearing-syrniki-7ad471.netlify.app/
+
+## Day-24 : Text to Speech :
+  live link : https://650eeabf5abffc2cf2699db3--resonant-torte-b2203d.netlify.app/
+
+## Day-25 : Mini Calender :
+  live link : https://650eeafc4dc51430a177f5c8--coruscating-cobbler-1b68ea.netlify.app/
+
+## Day-26 : Select Menu :
+  live link : https://650eeb4e5ed17f31f660fe9c--profound-muffin-b7104c.netlify.app/
+
+## Day-27 : Image Resizer : 
+  live link : https://650eeb8ee7943d337de2d343--quiet-creponne-40f53b.netlify.app/
+
+## Day-28 : Coin Flip :
+  live link : https://650eeb8ee7943d337de2d343--quiet-creponne-40f53b.netlify.app/
+
+## Day-29 : 2048 Game :
+  live link : https://650eebfdb708032c9c3403c9--super-basbousa-f8884c.netlify.app/
+
+## Day-30 : Tik Tak Toe Game : 
+  live link : https://650eec33e678fa2f7fa8b75e--statuesque-biscotti-18c197.netlify.app/
+
+
