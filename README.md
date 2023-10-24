@@ -80,7 +80,7 @@
   live link : https://650eeb8ee7943d337de2d343--quiet-creponne-40f53b.netlify.app/
 
 ## Day-28 : Coin Flip :
-  live link : https://650eeb8ee7943d337de2d343--quiet-creponne-40f53b.netlify.app/
+  live link : [https://650eeb8ee7943d337de2d343--quiet-creponne-40f53b.netlify.app/](https://teal-kangaroo-41b435.netlify.app/)
 
 ## Day-29 : 2048 Game :
   live link : https://650eebfdb708032c9c3403c9--super-basbousa-f8884c.netlify.app/
